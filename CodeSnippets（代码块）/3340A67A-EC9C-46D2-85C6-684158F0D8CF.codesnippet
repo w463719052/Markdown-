@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>YGnavigatonBar</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/**&lt; 设置navigatonBar的属性*/
+- (void)setNavigationBar {
+    /**&lt; 导航条标题*/
+    [self.navigationController.navigationBar
+     setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor],
+                              NSFontAttributeName:[UIFont boldSystemFontOfSize:20]}];
+    /**&lt; 导航条背景颜色*/
+    [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"lp_nav_purple"]
+                                                  forBarMetrics:UIBarMetricsDefault];
+    /**&lt; 导航条按钮*/
+    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc]
+                                   initWithImage:[UIImage imageNamed:@"lp_nav_goback"]
+                                   style:UIBarButtonItemStylePlain
+                                   target:self
+                                   action:@selector(back)];
+    self.navigationItem.leftBarButtonItem = leftButton;
+    /**&lt; 导航条按钮颜色*/
+    [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
+}
+
+- (void)back {
+    [self dismissViewControllerAnimated:YES completion:nil];
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>3340A67A-EC9C-46D2-85C6-684158F0D8CF</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>设置navigatonBar的属性</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

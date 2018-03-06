@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>YGLibraryAndCamera</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark 关于相机和相册的方法
+
+//需要引入的头文件
+//#import &lt;AssetsLibrary/AssetsLibrary.h&gt;
+//#import &lt;Photos/Photos.h&gt;
+//#import &lt;AVFoundation/AVCaptureDevice.h&gt;
+
+/**&lt; 展示相册和相机权限的提示*/
+- (void)showLibraryOrCameraAuthorAlert:(NSString *)type {
+    NSString *titleString = [NSString stringWithFormat:@"请在%@的“设置-隐私-%@”选项中，允许旅拍访问您的手机。",[UIDevice currentDevice].model,type];
+    UIAlertView *alertView = [[UIAlertView alloc] initWithTitle:titleString
+                                                        message:nil
+                                                       delegate:nil
+                                              cancelButtonTitle:nil
+                                              otherButtonTitles:@"我知道了", nil];
+    [alertView show];
+}
+/**&lt; 展示相册或相机*/
+- (void)showLibraryOrCamera:(int)type {
+    UIImagePickerController *imagePicker = [[UIImagePickerController alloc] init];
+    imagePicker.delegate = self;
+    imagePicker.sourceType = type;
+    [self presentViewController:imagePicker
+                       animated:YES
+                     completion:nil];
+}
+/**&lt; 访问相册*/
+- (void)visitLibrary {
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypePhotoLibrary]) {
+        /**&lt; 判断系统版本是否小余8.0*/
+        if ([[UIDevice currentDevice].systemVersion floatValue] &gt;=8.0 ) {
+            /**&lt; 8.0之后的系统调用这个方法*/
+            PHAuthorizationStatus author = [PHPhotoLibrary authorizationStatus];
+            if (author == PHAuthorizationStatusRestricted || author == PHAuthorizationStatusDenied) {
+                [self showLibraryOrCameraAuthorAlert:@"照片"];
+            } else {
+                [self showLibraryOrCamera:UIImagePickerControllerSourceTypePhotoLibrary];
+            }
+        } else {
+            /**&lt; 8.0之前的系统调用这个方法*/
+            ALAuthorizationStatus author = [ALAssetsLibrary authorizationStatus];
+            if (author == ALAuthorizationStatusRestricted || author == ALAuthorizationStatusDenied) {
+                [self showLibraryOrCameraAuthorAlert:@"照片"];
+            } else {
+                [self showLibraryOrCamera:UIImagePickerControllerSourceTypePhotoLibrary];
+            }
+        }
+            } else {
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"您的设备没有相册"
+                                                           message:nil
+                                                          delegate:nil
+                                                 cancelButtonTitle:@"知道了"
+                                                 otherButtonTitles:nil];
+        [alertView show];
+    }
+}
+/**&lt; 访问相机*/
+- (void)visitCamera {
+    if ([UIImagePickerController isSourceTypeAvailable:UIImagePickerControllerSourceTypeCamera]) {
+        AVAuthorizationStatus author = [AVCaptureDevice authorizationStatusForMediaType:AVMediaTypeAudio];
+        if (author == AVAuthorizationStatusRestricted || author == AVAuthorizationStatusDenied) {
+            [self showLibraryOrCameraAuthorAlert:@"相机"];
+        } else {
+            [self showLibraryOrCamera:UIImagePickerControllerSourceTypeCamera];
+        }
+    } else {
+        UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"您的设备不具备拍照功能"
+                                                           message:nil
+                                                          delegate:nil
+                                                 cancelButtonTitle:@"知道了"
+                                                 otherButtonTitles:nil];
+        [alertView show];
+    }
+}
+</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>DFB2D538-49E2-4EB2-B837-3E267DDB4BC3</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>关于相机和相册的方法</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>YGAFNPOST</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>CodeBlock</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>/**&lt; 初始化请求管理器*/
+    AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
+    /**&lt; 设置接受类型*/
+    manager.responseSerializer.acceptableContentTypes = [NSSet setWithObject:@"text/html"];
+    /**&lt; 发送post请求*/
+    manager POST:&lt;#(NSString *)#&gt; parameters:&lt;#(id)#&gt; success:&lt;#^(AFHTTPRequestOperation *operation, id responseObject)success#&gt; failure:&lt;#^(AFHTTPRequestOperation *operation, NSError *error)failure#&gt;</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>4657AE24-1CF2-4040-BF80-6FE80E71515F</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>AFN的POST请求</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

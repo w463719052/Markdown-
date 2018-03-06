@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>YGHUD</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>#pragma mark HUD
+- (void)showHUD:(UIView *)view mode:(MBProgressHUDMode)mode text:(NSString *)text{
+    _HUD = [MBProgressHUD showHUDAddedTo:view animated:YES];
+    [_HUD setMode:mode];
+    [_HUD setLabelText:text];
+}
+
+- (void)hide:(CGFloat)delay {
+    [_HUD hide:YES afterDelay:delay];
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>6FA40B51-5B10-49E1-91AC-B6CB5FDCDFA1</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>HUD加载定义</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>

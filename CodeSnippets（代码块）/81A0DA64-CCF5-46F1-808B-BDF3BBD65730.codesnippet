@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDECodeSnippetCompletionPrefix</key>
+	<string>@ziti</string>
+	<key>IDECodeSnippetCompletionScopes</key>
+	<array>
+		<string>ClassImplementation</string>
+	</array>
+	<key>IDECodeSnippetContents</key>
+	<string>-(void)enumerateFonts{
+    for (NSString *familyName in [UIFont familyNames]) {
+        NSLog(@"Fone Family=%@",familyName);
+        for (NSString *fontName in [UIFont fontNamesForFamilyName:familyName]) {
+            NSLog(@"\t%@",fontName);
+        }
+    }
+}</string>
+	<key>IDECodeSnippetIdentifier</key>
+	<string>81A0DA64-CCF5-46F1-808B-BDF3BBD65730</string>
+	<key>IDECodeSnippetLanguage</key>
+	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<key>IDECodeSnippetTitle</key>
+	<string>字体</string>
+	<key>IDECodeSnippetUserSnippet</key>
+	<true/>
+	<key>IDECodeSnippetVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
