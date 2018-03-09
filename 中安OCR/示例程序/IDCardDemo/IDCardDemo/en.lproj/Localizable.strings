@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  IDCardDemo
+
+*/
+//主页面按钮
+"选择证件类型" = "Select Document Type";
+"扫描识别" = "Scan To Recog";
+"选择识别" = "Select To Recog";
+
+//选择证件类型
+"机读码" = "Machine readable zone";
+"护照" = "Passport";
+"二代身份证" = "Chinese ID card";
+"中国驾照" = "Chinese Driving license";
+"中国驾照副业" = "Chinese Driving license Back";
+"中国行驶证" = "Chinese vehicle licence";
+"港澳通行证" = "e-EEP to HK/Maczu";
+"新版港澳通行证" = "New e-EEP to HK/Maczu";
+"台湾通行证" = "Taiwan Pass";
+"回乡证正面" = "Home Return permit (Obverse)";
+"回乡证背面" = "Home Return permit (Reverse)";
+"台胞证" = "To the Mainland Travel Permit";
+"中国签证" = "Chinese Visa";
+"中国驾照副业" = "Chinese Driving license Back";
+"取消" = "Cancle";

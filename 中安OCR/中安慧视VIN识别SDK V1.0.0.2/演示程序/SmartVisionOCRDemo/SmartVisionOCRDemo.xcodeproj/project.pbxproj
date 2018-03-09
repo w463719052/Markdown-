@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		511542D01ECC44B4004B0EEF /* thocr_Driver_License.lib in Resources */ = {isa = PBXBuildFile; fileRef = 511542CD1ECC44B4004B0EEF /* thocr_Driver_License.lib */; };
+		511542D11ECC44B4004B0EEF /* THOCR_Num_Char.lib in Resources */ = {isa = PBXBuildFile; fileRef = 511542CE1ECC44B4004B0EEF /* THOCR_Num_Char.lib */; };
+		511542D21ECC44B4004B0EEF /* thocr_vl_digit_capitals.lib in Resources */ = {isa = PBXBuildFile; fileRef = 511542CF1ECC44B4004B0EEF /* thocr_vl_digit_capitals.lib */; };
+		51606C821D19346900E7B3A9 /* WTPENPDA.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51606C811D19346900E7B3A9 /* WTPENPDA.lib */; };
+		518B7FAB1D0D3A7300DE0FB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 518B7FAA1D0D3A7300DE0FB6 /* main.m */; };
+		518B7FAE1D0D3A7300DE0FB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 518B7FAD1D0D3A7300DE0FB6 /* AppDelegate.m */; };
+		518B7FB11D0D3A7300DE0FB6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 518B7FB01D0D3A7300DE0FB6 /* ViewController.m */; };
+		518B7FB41D0D3A7300DE0FB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518B7FB21D0D3A7300DE0FB6 /* Main.storyboard */; };
+		518B7FB61D0D3A7300DE0FB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 518B7FB51D0D3A7300DE0FB6 /* Assets.xcassets */; };
+		518B7FB91D0D3A7300DE0FB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518B7FB71D0D3A7300DE0FB6 /* LaunchScreen.storyboard */; };
+		51E2BFEE1ED955F4004D50D2 /* appTemplateConfig.xml in Resources */ = {isa = PBXBuildFile; fileRef = 51E2BFED1ED955F4004D50D2 /* appTemplateConfig.xml */; };
+		51E2BFFF1ED95600004D50D2 /* DataSourceReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E2BFF11ED95600004D50D2 /* DataSourceReader.m */; };
+		51E2C0001ED95600004D50D2 /* ImageTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E2BFF31ED95600004D50D2 /* ImageTableViewCell.m */; };
+		51E2C0011ED95600004D50D2 /* ImageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51E2BFF41ED95600004D50D2 /* ImageTableViewCell.xib */; };
+		51E2C0021ED95600004D50D2 /* ListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E2BFF61ED95600004D50D2 /* ListTableViewCell.m */; };
+		51E2C0031ED95600004D50D2 /* MainType.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E2BFF81ED95600004D50D2 /* MainType.m */; };
+		51E2C0041ED95600004D50D2 /* ResultTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E2BFFA1ED95600004D50D2 /* ResultTableViewCell.m */; };
+		51E2C0051ED95600004D50D2 /* RXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E2BFFC1ED95600004D50D2 /* RXMLElement.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		51E2C0061ED95600004D50D2 /* SubType.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E2BFFE1ED95600004D50D2 /* SubType.m */; };
+		51E2C0081ED95615004D50D2 /* smartvisitionocr.lsc in Resources */ = {isa = PBXBuildFile; fileRef = 51E2C0071ED95615004D50D2 /* smartvisitionocr.lsc */; };
+		51E2C04C1ED95C30004D50D2 /* 说明.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51E2C04B1ED95C30004D50D2 /* 说明.txt */; };
+		51E2C09B1ED95D6A004D50D2 /* back_camera_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E2C0901ED95D6A004D50D2 /* back_camera_btn@2x.png */; };
+		51E2C09C1ED95D6A004D50D2 /* back_camera_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E2C0911ED95D6A004D50D2 /* back_camera_btn@3x.png */; };
+		51E2C09D1ED95D6A004D50D2 /* flash_camera_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E2C0921ED95D6A004D50D2 /* flash_camera_btn@2x.png */; };
+		51E2C09E1ED95D6A004D50D2 /* flash_camera_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E2C0931ED95D6A004D50D2 /* flash_camera_btn@3x.png */; };
+		51E2C09F1ED95D6A004D50D2 /* scanLine.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E2C0941ED95D6A004D50D2 /* scanLine.png */; };
+		51E2C0A01ED95D6A004D50D2 /* SmartOCRCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 51E2C0961ED95D6A004D50D2 /* SmartOCRCameraViewController.mm */; };
+		51E2C0A11ED95D6A004D50D2 /* SmartOCROverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51E2C0981ED95D6A004D50D2 /* SmartOCROverView.m */; };
+		51E2C0A21ED95D6A004D50D2 /* take_pic_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E2C0991ED95D6A004D50D2 /* take_pic_btn@2x.png */; };
+		51E2C0A31ED95D6A004D50D2 /* take_pic_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51E2C09A1ED95D6A004D50D2 /* take_pic_btn@3x.png */; };
+		51FA20B51EA70FBA008E743E /* SZHY.xml in Resources */ = {isa = PBXBuildFile; fileRef = 51FA20B41EA70FBA008E743E /* SZHY.xml */; };
+		51FB76921D0E527100DC11F6 /* pntWTPENPDA.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51FB76901D0E527100DC11F6 /* pntWTPENPDA.lib */; };
+		51FB76AA1D0E5BE900DC11F6 /* libSmartOCR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FB76A81D0E5BE900DC11F6 /* libSmartOCR.a */; };
+		51FB77091D0E614200DC11F6 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FB77081D0E614200DC11F6 /* libiconv.2.4.0.tbd */; };
+		51FB770B1D0E616900DC11F6 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51FB770A1D0E616900DC11F6 /* libxml2.tbd */; };
+		51FB770F1D0F975600DC11F6 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51FB770D1D0F975600DC11F6 /* ResultViewController.m */; };
+		51FB771C1D11308D00DC11F6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51FB771B1D11308D00DC11F6 /* Images.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		511542CD1ECC44B4004B0EEF /* thocr_Driver_License.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = thocr_Driver_License.lib; sourceTree = "<group>"; };
+		511542CE1ECC44B4004B0EEF /* THOCR_Num_Char.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = THOCR_Num_Char.lib; sourceTree = "<group>"; };
+		511542CF1ECC44B4004B0EEF /* thocr_vl_digit_capitals.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = thocr_vl_digit_capitals.lib; sourceTree = "<group>"; };
+		51606C811D19346900E7B3A9 /* WTPENPDA.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = WTPENPDA.lib; sourceTree = "<group>"; };
+		518B7FA61D0D3A7300DE0FB6 /* SmartVisionOCRDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartVisionOCRDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		518B7FAA1D0D3A7300DE0FB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		518B7FAC1D0D3A7300DE0FB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		518B7FAD1D0D3A7300DE0FB6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		518B7FAF1D0D3A7300DE0FB6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		518B7FB01D0D3A7300DE0FB6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		518B7FB31D0D3A7300DE0FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		518B7FB51D0D3A7300DE0FB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		518B7FB81D0D3A7300DE0FB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		518B7FBA1D0D3A7300DE0FB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51E2BFED1ED955F4004D50D2 /* appTemplateConfig.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = appTemplateConfig.xml; sourceTree = "<group>"; };
+		51E2BFF01ED95600004D50D2 /* DataSourceReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataSourceReader.h; sourceTree = "<group>"; };
+		51E2BFF11ED95600004D50D2 /* DataSourceReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataSourceReader.m; sourceTree = "<group>"; };
+		51E2BFF21ED95600004D50D2 /* ImageTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageTableViewCell.h; sourceTree = "<group>"; };
+		51E2BFF31ED95600004D50D2 /* ImageTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageTableViewCell.m; sourceTree = "<group>"; };
+		51E2BFF41ED95600004D50D2 /* ImageTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageTableViewCell.xib; sourceTree = "<group>"; };
+		51E2BFF51ED95600004D50D2 /* ListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListTableViewCell.h; sourceTree = "<group>"; };
+		51E2BFF61ED95600004D50D2 /* ListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListTableViewCell.m; sourceTree = "<group>"; };
+		51E2BFF71ED95600004D50D2 /* MainType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainType.h; sourceTree = "<group>"; };
+		51E2BFF81ED95600004D50D2 /* MainType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainType.m; sourceTree = "<group>"; };
+		51E2BFF91ED95600004D50D2 /* ResultTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultTableViewCell.h; sourceTree = "<group>"; };
+		51E2BFFA1ED95600004D50D2 /* ResultTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultTableViewCell.m; sourceTree = "<group>"; };
+		51E2BFFB1ED95600004D50D2 /* RXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXMLElement.h; sourceTree = "<group>"; };
+		51E2BFFC1ED95600004D50D2 /* RXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXMLElement.m; sourceTree = "<group>"; };
+		51E2BFFD1ED95600004D50D2 /* SubType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubType.h; sourceTree = "<group>"; };
+		51E2BFFE1ED95600004D50D2 /* SubType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubType.m; sourceTree = "<group>"; };
+		51E2C0071ED95615004D50D2 /* smartvisitionocr.lsc */ = {isa = PBXFileReference; lastKnownFileType = file; path = smartvisitionocr.lsc; sourceTree = "<group>"; };
+		51E2C04B1ED95C30004D50D2 /* 说明.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "说明.txt"; sourceTree = "<group>"; };
+		51E2C0901ED95D6A004D50D2 /* back_camera_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_camera_btn@2x.png"; sourceTree = "<group>"; };
+		51E2C0911ED95D6A004D50D2 /* back_camera_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_camera_btn@3x.png"; sourceTree = "<group>"; };
+		51E2C0921ED95D6A004D50D2 /* flash_camera_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash_camera_btn@2x.png"; sourceTree = "<group>"; };
+		51E2C0931ED95D6A004D50D2 /* flash_camera_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash_camera_btn@3x.png"; sourceTree = "<group>"; };
+		51E2C0941ED95D6A004D50D2 /* scanLine.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = scanLine.png; sourceTree = "<group>"; };
+		51E2C0951ED95D6A004D50D2 /* SmartOCRCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartOCRCameraViewController.h; sourceTree = "<group>"; };
+		51E2C0961ED95D6A004D50D2 /* SmartOCRCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SmartOCRCameraViewController.mm; sourceTree = "<group>"; };
+		51E2C0971ED95D6A004D50D2 /* SmartOCROverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartOCROverView.h; sourceTree = "<group>"; };
+		51E2C0981ED95D6A004D50D2 /* SmartOCROverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SmartOCROverView.m; sourceTree = "<group>"; };
+		51E2C0991ED95D6A004D50D2 /* take_pic_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take_pic_btn@2x.png"; sourceTree = "<group>"; };
+		51E2C09A1ED95D6A004D50D2 /* take_pic_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take_pic_btn@3x.png"; sourceTree = "<group>"; };
+		51FA20B41EA70FBA008E743E /* SZHY.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = SZHY.xml; sourceTree = "<group>"; };
+		51FB76901D0E527100DC11F6 /* pntWTPENPDA.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = pntWTPENPDA.lib; sourceTree = "<group>"; };
+		51FB76A81D0E5BE900DC11F6 /* libSmartOCR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libSmartOCR.a; sourceTree = "<group>"; };
+		51FB76A91D0E5BE900DC11F6 /* SmartOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SmartOCR.h; sourceTree = "<group>"; };
+		51FB77081D0E614200DC11F6 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		51FB770A1D0E616900DC11F6 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		51FB770C1D0F975600DC11F6 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		51FB770D1D0F975600DC11F6 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		51FB771B1D11308D00DC11F6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		518B7FA31D0D3A7300DE0FB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FB770B1D0E616900DC11F6 /* libxml2.tbd in Frameworks */,
+				51FB77091D0E614200DC11F6 /* libiconv.2.4.0.tbd in Frameworks */,
+				51FB76AA1D0E5BE900DC11F6 /* libSmartOCR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		518B7F9D1D0D3A7300DE0FB6 = {
+			isa = PBXGroup;
+			children = (
+				51E2C04B1ED95C30004D50D2 /* 说明.txt */,
+				51E2C0071ED95615004D50D2 /* smartvisitionocr.lsc */,
+				51E2C08F1ED95D6A004D50D2 /* Camera_iPhone */,
+				51FB768C1D0E524900DC11F6 /* Resources */,
+				51E2BFEF1ED95600004D50D2 /* Others */,
+				51E2BFEC1ED92746004D50D2 /* frameWorks */,
+				518B7FA81D0D3A7300DE0FB6 /* SmartVisionOCRDemo */,
+				518B7FA71D0D3A7300DE0FB6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		518B7FA71D0D3A7300DE0FB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				518B7FA61D0D3A7300DE0FB6 /* SmartVisionOCRDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		518B7FA81D0D3A7300DE0FB6 /* SmartVisionOCRDemo */ = {
+			isa = PBXGroup;
+			children = (
+				518B7FAC1D0D3A7300DE0FB6 /* AppDelegate.h */,
+				518B7FAD1D0D3A7300DE0FB6 /* AppDelegate.m */,
+				51FB770C1D0F975600DC11F6 /* ResultViewController.h */,
+				51FB770D1D0F975600DC11F6 /* ResultViewController.m */,
+				518B7FAF1D0D3A7300DE0FB6 /* ViewController.h */,
+				518B7FB01D0D3A7300DE0FB6 /* ViewController.m */,
+				518B7FB21D0D3A7300DE0FB6 /* Main.storyboard */,
+				518B7FB51D0D3A7300DE0FB6 /* Assets.xcassets */,
+				518B7FB71D0D3A7300DE0FB6 /* LaunchScreen.storyboard */,
+				518B7FBA1D0D3A7300DE0FB6 /* Info.plist */,
+				51FB771B1D11308D00DC11F6 /* Images.xcassets */,
+				518B7FA91D0D3A7300DE0FB6 /* Supporting Files */,
+			);
+			path = SmartVisionOCRDemo;
+			sourceTree = "<group>";
+		};
+		518B7FA91D0D3A7300DE0FB6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				518B7FAA1D0D3A7300DE0FB6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51E2BFEC1ED92746004D50D2 /* frameWorks */ = {
+			isa = PBXGroup;
+			children = (
+				51FB770A1D0E616900DC11F6 /* libxml2.tbd */,
+				51FB77081D0E614200DC11F6 /* libiconv.2.4.0.tbd */,
+			);
+			name = frameWorks;
+			sourceTree = "<group>";
+		};
+		51E2BFEF1ED95600004D50D2 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				51E2BFF01ED95600004D50D2 /* DataSourceReader.h */,
+				51E2BFF11ED95600004D50D2 /* DataSourceReader.m */,
+				51E2BFF21ED95600004D50D2 /* ImageTableViewCell.h */,
+				51E2BFF31ED95600004D50D2 /* ImageTableViewCell.m */,
+				51E2BFF41ED95600004D50D2 /* ImageTableViewCell.xib */,
+				51E2BFF51ED95600004D50D2 /* ListTableViewCell.h */,
+				51E2BFF61ED95600004D50D2 /* ListTableViewCell.m */,
+				51E2BFF71ED95600004D50D2 /* MainType.h */,
+				51E2BFF81ED95600004D50D2 /* MainType.m */,
+				51E2BFF91ED95600004D50D2 /* ResultTableViewCell.h */,
+				51E2BFFA1ED95600004D50D2 /* ResultTableViewCell.m */,
+				51E2BFFB1ED95600004D50D2 /* RXMLElement.h */,
+				51E2BFFC1ED95600004D50D2 /* RXMLElement.m */,
+				51E2BFFD1ED95600004D50D2 /* SubType.h */,
+				51E2BFFE1ED95600004D50D2 /* SubType.m */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		51E2C08F1ED95D6A004D50D2 /* Camera_iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				51E2C0901ED95D6A004D50D2 /* back_camera_btn@2x.png */,
+				51E2C0911ED95D6A004D50D2 /* back_camera_btn@3x.png */,
+				51E2C0921ED95D6A004D50D2 /* flash_camera_btn@2x.png */,
+				51E2C0931ED95D6A004D50D2 /* flash_camera_btn@3x.png */,
+				51E2C0941ED95D6A004D50D2 /* scanLine.png */,
+				51E2C0951ED95D6A004D50D2 /* SmartOCRCameraViewController.h */,
+				51E2C0961ED95D6A004D50D2 /* SmartOCRCameraViewController.mm */,
+				51E2C0971ED95D6A004D50D2 /* SmartOCROverView.h */,
+				51E2C0981ED95D6A004D50D2 /* SmartOCROverView.m */,
+				51E2C0991ED95D6A004D50D2 /* take_pic_btn@2x.png */,
+				51E2C09A1ED95D6A004D50D2 /* take_pic_btn@3x.png */,
+			);
+			path = Camera_iPhone;
+			sourceTree = "<group>";
+		};
+		51FB768C1D0E524900DC11F6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				51E2BFED1ED955F4004D50D2 /* appTemplateConfig.xml */,
+				51FB76A81D0E5BE900DC11F6 /* libSmartOCR.a */,
+				51FB76A91D0E5BE900DC11F6 /* SmartOCR.h */,
+				51606C811D19346900E7B3A9 /* WTPENPDA.lib */,
+				51FA20B41EA70FBA008E743E /* SZHY.xml */,
+				511542CD1ECC44B4004B0EEF /* thocr_Driver_License.lib */,
+				511542CE1ECC44B4004B0EEF /* THOCR_Num_Char.lib */,
+				511542CF1ECC44B4004B0EEF /* thocr_vl_digit_capitals.lib */,
+				51FB76901D0E527100DC11F6 /* pntWTPENPDA.lib */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		518B7FA51D0D3A7300DE0FB6 /* SmartVisionOCRDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 518B7FBD1D0D3A7300DE0FB6 /* Build configuration list for PBXNativeTarget "SmartVisionOCRDemo" */;
+			buildPhases = (
+				518B7FA21D0D3A7300DE0FB6 /* Sources */,
+				518B7FA31D0D3A7300DE0FB6 /* Frameworks */,
+				518B7FA41D0D3A7300DE0FB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartVisionOCRDemo;
+			productName = SmartVisionOCRDemo;
+			productReference = 518B7FA61D0D3A7300DE0FB6 /* SmartVisionOCRDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		518B7F9E1D0D3A7300DE0FB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = chinasafe;
+				TargetAttributes = {
+					518B7FA51D0D3A7300DE0FB6 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = 2Z8P7VRQP9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 518B7FA11D0D3A7300DE0FB6 /* Build configuration list for PBXProject "SmartVisionOCRDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 518B7F9D1D0D3A7300DE0FB6;
+			productRefGroup = 518B7FA71D0D3A7300DE0FB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				518B7FA51D0D3A7300DE0FB6 /* SmartVisionOCRDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		518B7FA41D0D3A7300DE0FB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51E2C0A21ED95D6A004D50D2 /* take_pic_btn@2x.png in Resources */,
+				51FA20B51EA70FBA008E743E /* SZHY.xml in Resources */,
+				518B7FB91D0D3A7300DE0FB6 /* LaunchScreen.storyboard in Resources */,
+				51E2C0081ED95615004D50D2 /* smartvisitionocr.lsc in Resources */,
+				511542D01ECC44B4004B0EEF /* thocr_Driver_License.lib in Resources */,
+				51E2C09C1ED95D6A004D50D2 /* back_camera_btn@3x.png in Resources */,
+				518B7FB61D0D3A7300DE0FB6 /* Assets.xcassets in Resources */,
+				51E2C0011ED95600004D50D2 /* ImageTableViewCell.xib in Resources */,
+				51E2C09F1ED95D6A004D50D2 /* scanLine.png in Resources */,
+				51FB76921D0E527100DC11F6 /* pntWTPENPDA.lib in Resources */,
+				518B7FB41D0D3A7300DE0FB6 /* Main.storyboard in Resources */,
+				51E2C04C1ED95C30004D50D2 /* 说明.txt in Resources */,
+				51FB771C1D11308D00DC11F6 /* Images.xcassets in Resources */,
+				511542D21ECC44B4004B0EEF /* thocr_vl_digit_capitals.lib in Resources */,
+				511542D11ECC44B4004B0EEF /* THOCR_Num_Char.lib in Resources */,
+				51E2C09E1ED95D6A004D50D2 /* flash_camera_btn@3x.png in Resources */,
+				51606C821D19346900E7B3A9 /* WTPENPDA.lib in Resources */,
+				51E2BFEE1ED955F4004D50D2 /* appTemplateConfig.xml in Resources */,
+				51E2C09B1ED95D6A004D50D2 /* back_camera_btn@2x.png in Resources */,
+				51E2C0A31ED95D6A004D50D2 /* take_pic_btn@3x.png in Resources */,
+				51E2C09D1ED95D6A004D50D2 /* flash_camera_btn@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		518B7FA21D0D3A7300DE0FB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51FB770F1D0F975600DC11F6 /* ResultViewController.m in Sources */,
+				51E2C0021ED95600004D50D2 /* ListTableViewCell.m in Sources */,
+				518B7FB11D0D3A7300DE0FB6 /* ViewController.m in Sources */,
+				51E2C0031ED95600004D50D2 /* MainType.m in Sources */,
+				51E2C0061ED95600004D50D2 /* SubType.m in Sources */,
+				51E2C0A01ED95D6A004D50D2 /* SmartOCRCameraViewController.mm in Sources */,
+				51E2C0041ED95600004D50D2 /* ResultTableViewCell.m in Sources */,
+				51E2C0A11ED95D6A004D50D2 /* SmartOCROverView.m in Sources */,
+				51E2BFFF1ED95600004D50D2 /* DataSourceReader.m in Sources */,
+				518B7FAE1D0D3A7300DE0FB6 /* AppDelegate.m in Sources */,
+				51E2C0001ED95600004D50D2 /* ImageTableViewCell.m in Sources */,
+				51E2C0051ED95600004D50D2 /* RXMLElement.m in Sources */,
+				518B7FAB1D0D3A7300DE0FB6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		518B7FB21D0D3A7300DE0FB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518B7FB31D0D3A7300DE0FB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		518B7FB71D0D3A7300DE0FB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518B7FB81D0D3A7300DE0FB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		518B7FBB1D0D3A7300DE0FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		518B7FBC1D0D3A7300DE0FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		518B7FBE1D0D3A7300DE0FB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2Z8P7VRQP9;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = SmartVisionOCRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resources",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinasafe.smartocr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		518B7FBF1D0D3A7300DE0FB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2Z8P7VRQP9;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
+				INFOPLIST_FILE = SmartVisionOCRDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resources",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinasafe.smartocr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		518B7FA11D0D3A7300DE0FB6 /* Build configuration list for PBXProject "SmartVisionOCRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518B7FBB1D0D3A7300DE0FB6 /* Debug */,
+				518B7FBC1D0D3A7300DE0FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		518B7FBD1D0D3A7300DE0FB6 /* Build configuration list for PBXNativeTarget "SmartVisionOCRDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				518B7FBE1D0D3A7300DE0FB6 /* Debug */,
+				518B7FBF1D0D3A7300DE0FB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 518B7F9E1D0D3A7300DE0FB6 /* Project object */;
+}

@@ -1,0 +1,709 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		511EC9D41E7BBF9E009F308A /* IDCardCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 51AB46D61B1D99EF0064E608 /* IDCardCameraViewController.mm */; };
+		511EC9D51E7BC245009F308A /* IDCardOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AB46D81B1D99EF0064E608 /* IDCardOverView.m */; };
+		518FFFAC1D41F18F00DF2485 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 518FFFAE1D41F18F00DF2485 /* InfoPlist.strings */; };
+		518FFFB31D41F30600DF2485 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 518FFFB51D41F30600DF2485 /* Localizable.strings */; };
+		518FFFD61D487F7500DF2485 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 518FFFD41D487F7500DF2485 /* ViewController.xib */; };
+		51AB46B11B1D98DA0064E608 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AB46B01B1D98DA0064E608 /* main.m */; };
+		51AB46B41B1D98DA0064E608 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AB46B31B1D98DA0064E608 /* AppDelegate.m */; };
+		51AB46B71B1D98DA0064E608 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51AB46B61B1D98DA0064E608 /* ViewController.m */; };
+		51AB46BC1B1D98DA0064E608 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51AB46BB1B1D98DA0064E608 /* Images.xcassets */; };
+		51AB47091B1D9CE40064E608 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB47081B1D9CE40064E608 /* CoreVideo.framework */; };
+		51AB470B1B1D9CEB0064E608 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB470A1B1D9CEB0064E608 /* CoreMedia.framework */; };
+		51AB470D1B1D9CF50064E608 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB470C1B1D9CF50064E608 /* AudioToolbox.framework */; };
+		51AB470F1B1D9CFF0064E608 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB470E1B1D9CFF0064E608 /* AVFoundation.framework */; };
+		51AB47111B1D9D080064E608 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB47101B1D9D080064E608 /* CoreGraphics.framework */; };
+		51AB47131B1D9D100064E608 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB47121B1D9D100064E608 /* ImageIO.framework */; };
+		51AB47151B1D9D190064E608 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB47141B1D9D190064E608 /* Foundation.framework */; };
+		51AB47171B1D9D1E0064E608 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51AB47161B1D9D1E0064E608 /* UIKit.framework */; };
+		51BD51481B329A3D00E805B2 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51BD51461B329A3D00E805B2 /* ResultViewController.m */; };
+		51BD514E1B32A92100E805B2 /* back_camera_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BD514A1B32A92000E805B2 /* back_camera_btn@2x.png */; };
+		51BD514F1B32A92100E805B2 /* back_camera_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BD514B1B32A92000E805B2 /* back_camera_btn@3x.png */; };
+		51BD51501B32A92100E805B2 /* flash_camera_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BD514C1B32A92000E805B2 /* flash_camera_btn@2x.png */; };
+		51BD51511B32A92100E805B2 /* flash_camera_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51BD514D1B32A92000E805B2 /* flash_camera_btn@3x.png */; };
+		51C1BDD31E80F03400AAFD18 /* libiconv.2.4.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C1BDD21E80F03400AAFD18 /* libiconv.2.4.0.tbd */; };
+		51C1BDD51E80F04300AAFD18 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C1BDD41E80F04300AAFD18 /* libxml2.tbd */; };
+		51CB3DB21E8CAE270026AF65 /* take_pic_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CB3DB01E8CAE270026AF65 /* take_pic_btn@2x.png */; };
+		51CB3DB31E8CAE270026AF65 /* take_pic_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 51CB3DB11E8CAE270026AF65 /* take_pic_btn@3x.png */; };
+		51CC7FD41E8BC7B30099BC08 /* libIDCardOCR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 51CC7FD31E8BC7B30099BC08 /* libIDCardOCR.a */; };
+		51D345F31EA064C200623446 /* Address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51D345DB1EA064C200623446 /* Address.txt */; };
+		51D345F41EA064C200623446 /* AdminDiv.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51D345DC1EA064C200623446 /* AdminDiv.txt */; };
+		51D345F51EA064C200623446 /* AdminDivCode.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51D345DD1EA064C200623446 /* AdminDivCode.txt */; };
+		51D345F61EA064C200623446 /* BrandModel.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51D345DE1EA064C200623446 /* BrandModel.txt */; };
+		51D345F71EA064C200623446 /* IDCardDevice.dat in Resources */ = {isa = PBXBuildFile; fileRef = 51D345DF1EA064C200623446 /* IDCardDevice.dat */; };
+		51D345F81EA064C200623446 /* IDCARDMS_ABROAD.xml in Resources */ = {isa = PBXBuildFile; fileRef = 51D345E01EA064C200623446 /* IDCARDMS_ABROAD.xml */; };
+		51D345F91EA064C200623446 /* IDCARDMS.xml in Resources */ = {isa = PBXBuildFile; fileRef = 51D345E11EA064C200623446 /* IDCARDMS.xml */; };
+		51D345FA1EA064C200623446 /* IDCLASSIFIERANDROID.xml in Resources */ = {isa = PBXBuildFile; fileRef = 51D345E21EA064C200623446 /* IDCLASSIFIERANDROID.xml */; };
+		51D345FB1EA064C200623446 /* IDKLICENSE.dat in Resources */ = {isa = PBXBuildFile; fileRef = 51D345E31EA064C200623446 /* IDKLICENSE.dat */; };
+		51D345FC1EA064C200623446 /* IssueAndBirth.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51D345E41EA064C200623446 /* IssueAndBirth.txt */; };
+		51D345FD1EA064C200623446 /* OEMtest.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51D345E51EA064C200623446 /* OEMtest.txt */; };
+		51D345FE1EA064C200623446 /* pntWTPENPDA.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51D345E61EA064C200623446 /* pntWTPENPDA.lib */; };
+		51D345FF1EA064C200623446 /* ProvName.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51D345E71EA064C200623446 /* ProvName.txt */; };
+		51D346001EA064C200623446 /* SidIssueAuthority.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51D345E81EA064C200623446 /* SidIssueAuthority.txt */; };
+		51D346011EA064C200623446 /* Special.txt in Resources */ = {isa = PBXBuildFile; fileRef = 51D345E91EA064C200623446 /* Special.txt */; };
+		51D346021EA064C200623446 /* thocr_Driver_License.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51D345EA1EA064C200623446 /* thocr_Driver_License.lib */; };
+		51D346031EA064C200623446 /* THOCR_LP.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51D345EB1EA064C200623446 /* THOCR_LP.lib */; };
+		51D346041EA064C200623446 /* THOCR_Num_Char.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51D345EC1EA064C200623446 /* THOCR_Num_Char.lib */; };
+		51D346051EA064C200623446 /* THOCR_PDA.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51D345ED1EA064C200623446 /* THOCR_PDA.lib */; };
+		51D346061EA064C200623446 /* THOCR_pspt.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51D345EE1EA064C200623446 /* THOCR_pspt.lib */; };
+		51D346071EA064C200623446 /* thocr_sid.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51D345EF1EA064C200623446 /* thocr_sid.lib */; };
+		51D346081EA064C200623446 /* thocr_vl_all.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51D345F01EA064C200623446 /* thocr_vl_all.lib */; };
+		51D346091EA064C200623446 /* thocr_vl_digit_capitals.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51D345F11EA064C200623446 /* thocr_vl_digit_capitals.lib */; };
+		51D3460A1EA064C200623446 /* thocr_vl_province.lib in Resources */ = {isa = PBXBuildFile; fileRef = 51D345F21EA064C200623446 /* thocr_vl_province.lib */; };
+		51E099121EA0BF68005EF428 /* wtproject.lsc in Resources */ = {isa = PBXBuildFile; fileRef = 51E099111EA0BF68005EF428 /* wtproject.lsc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51AB46C51B1D98DA0064E608 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51AB46A31B1D98DA0064E608 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51AB46AA1B1D98DA0064E608;
+			remoteInfo = IDCardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		518FFFAD1D41F18F00DF2485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		518FFFB01D41F28600DF2485 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		518FFFB41D41F30600DF2485 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		518FFFB61D41F30800DF2485 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		518FFFD51D487F7500DF2485 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		518FFFD81D4882CC00DF2485 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = "zh-Hans"; path = "zh-Hans.lproj/ViewController.xib"; sourceTree = "<group>"; };
+		51AB46AB1B1D98DA0064E608 /* IDCardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IDCardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AB46AF1B1D98DA0064E608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51AB46B01B1D98DA0064E608 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51AB46B21B1D98DA0064E608 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51AB46B31B1D98DA0064E608 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51AB46B51B1D98DA0064E608 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51AB46B61B1D98DA0064E608 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51AB46BB1B1D98DA0064E608 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51AB46C41B1D98DA0064E608 /* IDCardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IDCardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51AB46C91B1D98DA0064E608 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51AB46CA1B1D98DA0064E608 /* IDCardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IDCardDemoTests.m; sourceTree = "<group>"; };
+		51AB46D51B1D99EF0064E608 /* IDCardCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCardCameraViewController.h; sourceTree = "<group>"; };
+		51AB46D61B1D99EF0064E608 /* IDCardCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = IDCardCameraViewController.mm; sourceTree = "<group>"; };
+		51AB46D71B1D99EF0064E608 /* IDCardOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCardOverView.h; sourceTree = "<group>"; };
+		51AB46D81B1D99EF0064E608 /* IDCardOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDCardOverView.m; sourceTree = "<group>"; };
+		51AB47081B1D9CE40064E608 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		51AB470A1B1D9CEB0064E608 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		51AB470C1B1D9CF50064E608 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		51AB470E1B1D9CFF0064E608 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		51AB47101B1D9D080064E608 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		51AB47121B1D9D100064E608 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		51AB47141B1D9D190064E608 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		51AB47161B1D9D1E0064E608 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		51BD51451B329A3D00E805B2 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		51BD51461B329A3D00E805B2 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		51BD514A1B32A92000E805B2 /* back_camera_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_camera_btn@2x.png"; sourceTree = "<group>"; };
+		51BD514B1B32A92000E805B2 /* back_camera_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back_camera_btn@3x.png"; sourceTree = "<group>"; };
+		51BD514C1B32A92000E805B2 /* flash_camera_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash_camera_btn@2x.png"; sourceTree = "<group>"; };
+		51BD514D1B32A92000E805B2 /* flash_camera_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "flash_camera_btn@3x.png"; sourceTree = "<group>"; };
+		51C1BDD21E80F03400AAFD18 /* libiconv.2.4.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.2.4.0.tbd; path = usr/lib/libiconv.2.4.0.tbd; sourceTree = SDKROOT; };
+		51C1BDD41E80F04300AAFD18 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		51CB3DB01E8CAE270026AF65 /* take_pic_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take_pic_btn@2x.png"; sourceTree = "<group>"; };
+		51CB3DB11E8CAE270026AF65 /* take_pic_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "take_pic_btn@3x.png"; sourceTree = "<group>"; };
+		51CC7FD31E8BC7B30099BC08 /* libIDCardOCR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libIDCardOCR.a; sourceTree = "<group>"; };
+		51CC7FD51E8BC8050099BC08 /* IDCardSlideLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCardSlideLine.h; sourceTree = "<group>"; };
+		51CC7FD61E8BC8610099BC08 /* IDCardOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDCardOCR.h; sourceTree = "<group>"; };
+		51D345DB1EA064C200623446 /* Address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Address.txt; sourceTree = "<group>"; };
+		51D345DC1EA064C200623446 /* AdminDiv.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdminDiv.txt; sourceTree = "<group>"; };
+		51D345DD1EA064C200623446 /* AdminDivCode.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = AdminDivCode.txt; sourceTree = "<group>"; };
+		51D345DE1EA064C200623446 /* BrandModel.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = BrandModel.txt; sourceTree = "<group>"; };
+		51D345DF1EA064C200623446 /* IDCardDevice.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = IDCardDevice.dat; sourceTree = "<group>"; };
+		51D345E01EA064C200623446 /* IDCARDMS_ABROAD.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = IDCARDMS_ABROAD.xml; sourceTree = "<group>"; };
+		51D345E11EA064C200623446 /* IDCARDMS.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = IDCARDMS.xml; sourceTree = "<group>"; };
+		51D345E21EA064C200623446 /* IDCLASSIFIERANDROID.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = IDCLASSIFIERANDROID.xml; sourceTree = "<group>"; };
+		51D345E31EA064C200623446 /* IDKLICENSE.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = IDKLICENSE.dat; sourceTree = "<group>"; };
+		51D345E41EA064C200623446 /* IssueAndBirth.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = IssueAndBirth.txt; sourceTree = "<group>"; };
+		51D345E51EA064C200623446 /* OEMtest.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OEMtest.txt; sourceTree = "<group>"; };
+		51D345E61EA064C200623446 /* pntWTPENPDA.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = pntWTPENPDA.lib; sourceTree = "<group>"; };
+		51D345E71EA064C200623446 /* ProvName.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProvName.txt; sourceTree = "<group>"; };
+		51D345E81EA064C200623446 /* SidIssueAuthority.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SidIssueAuthority.txt; sourceTree = "<group>"; };
+		51D345E91EA064C200623446 /* Special.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Special.txt; sourceTree = "<group>"; };
+		51D345EA1EA064C200623446 /* thocr_Driver_License.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = thocr_Driver_License.lib; sourceTree = "<group>"; };
+		51D345EB1EA064C200623446 /* THOCR_LP.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = THOCR_LP.lib; sourceTree = "<group>"; };
+		51D345EC1EA064C200623446 /* THOCR_Num_Char.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = THOCR_Num_Char.lib; sourceTree = "<group>"; };
+		51D345ED1EA064C200623446 /* THOCR_PDA.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = THOCR_PDA.lib; sourceTree = "<group>"; };
+		51D345EE1EA064C200623446 /* THOCR_pspt.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = THOCR_pspt.lib; sourceTree = "<group>"; };
+		51D345EF1EA064C200623446 /* thocr_sid.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = thocr_sid.lib; sourceTree = "<group>"; };
+		51D345F01EA064C200623446 /* thocr_vl_all.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = thocr_vl_all.lib; sourceTree = "<group>"; };
+		51D345F11EA064C200623446 /* thocr_vl_digit_capitals.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = thocr_vl_digit_capitals.lib; sourceTree = "<group>"; };
+		51D345F21EA064C200623446 /* thocr_vl_province.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = thocr_vl_province.lib; sourceTree = "<group>"; };
+		51E099111EA0BF68005EF428 /* wtproject.lsc */ = {isa = PBXFileReference; lastKnownFileType = file; path = wtproject.lsc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51AB46A81B1D98DA0064E608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51C1BDD51E80F04300AAFD18 /* libxml2.tbd in Frameworks */,
+				51C1BDD31E80F03400AAFD18 /* libiconv.2.4.0.tbd in Frameworks */,
+				51AB47171B1D9D1E0064E608 /* UIKit.framework in Frameworks */,
+				51AB47151B1D9D190064E608 /* Foundation.framework in Frameworks */,
+				51AB47131B1D9D100064E608 /* ImageIO.framework in Frameworks */,
+				51AB47111B1D9D080064E608 /* CoreGraphics.framework in Frameworks */,
+				51AB470F1B1D9CFF0064E608 /* AVFoundation.framework in Frameworks */,
+				51CC7FD41E8BC7B30099BC08 /* libIDCardOCR.a in Frameworks */,
+				51AB470D1B1D9CF50064E608 /* AudioToolbox.framework in Frameworks */,
+				51AB470B1B1D9CEB0064E608 /* CoreMedia.framework in Frameworks */,
+				51AB47091B1D9CE40064E608 /* CoreVideo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AB46C11B1D98DA0064E608 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51AB46A21B1D98DA0064E608 = {
+			isa = PBXGroup;
+			children = (
+				51E099111EA0BF68005EF428 /* wtproject.lsc */,
+				51AB46DE1B1D9C4B0064E608 /* Resource */,
+				51AB46D41B1D99EF0064E608 /* camara */,
+				51AB46AD1B1D98DA0064E608 /* IDCardDemo */,
+				51AB46C71B1D98DA0064E608 /* IDCardDemoTests */,
+				51AB46AC1B1D98DA0064E608 /* Products */,
+				51C1BDD11E80F03400AAFD18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51AB46AC1B1D98DA0064E608 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51AB46AB1B1D98DA0064E608 /* IDCardDemo.app */,
+				51AB46C41B1D98DA0064E608 /* IDCardDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51AB46AD1B1D98DA0064E608 /* IDCardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				51AB46B21B1D98DA0064E608 /* AppDelegate.h */,
+				51AB46B31B1D98DA0064E608 /* AppDelegate.m */,
+				51AB46B51B1D98DA0064E608 /* ViewController.h */,
+				51AB46B61B1D98DA0064E608 /* ViewController.m */,
+				518FFFD41D487F7500DF2485 /* ViewController.xib */,
+				51BD51451B329A3D00E805B2 /* ResultViewController.h */,
+				51BD51461B329A3D00E805B2 /* ResultViewController.m */,
+				51AB46BB1B1D98DA0064E608 /* Images.xcassets */,
+				51AB46AE1B1D98DA0064E608 /* Supporting Files */,
+			);
+			path = IDCardDemo;
+			sourceTree = "<group>";
+		};
+		51AB46AE1B1D98DA0064E608 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51AB46AF1B1D98DA0064E608 /* Info.plist */,
+				51AB46B01B1D98DA0064E608 /* main.m */,
+				518FFFAE1D41F18F00DF2485 /* InfoPlist.strings */,
+				518FFFB51D41F30600DF2485 /* Localizable.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51AB46C71B1D98DA0064E608 /* IDCardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				51AB46CA1B1D98DA0064E608 /* IDCardDemoTests.m */,
+				51AB46C81B1D98DA0064E608 /* Supporting Files */,
+			);
+			path = IDCardDemoTests;
+			sourceTree = "<group>";
+		};
+		51AB46C81B1D98DA0064E608 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51AB46C91B1D98DA0064E608 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51AB46D41B1D99EF0064E608 /* camara */ = {
+			isa = PBXGroup;
+			children = (
+				51CB3DB51E8F85570026AF65 /* image */,
+				51AB46D51B1D99EF0064E608 /* IDCardCameraViewController.h */,
+				51AB46D61B1D99EF0064E608 /* IDCardCameraViewController.mm */,
+				51AB46D71B1D99EF0064E608 /* IDCardOverView.h */,
+				51AB46D81B1D99EF0064E608 /* IDCardOverView.m */,
+			);
+			name = camara;
+			path = IDCardDemo/camara;
+			sourceTree = "<group>";
+		};
+		51AB46DE1B1D9C4B0064E608 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				51CC7FD61E8BC8610099BC08 /* IDCardOCR.h */,
+				51CC7FD31E8BC7B30099BC08 /* libIDCardOCR.a */,
+				51CC7FD51E8BC8050099BC08 /* IDCardSlideLine.h */,
+				51D345DB1EA064C200623446 /* Address.txt */,
+				51D345DC1EA064C200623446 /* AdminDiv.txt */,
+				51D345DD1EA064C200623446 /* AdminDivCode.txt */,
+				51D345DE1EA064C200623446 /* BrandModel.txt */,
+				51D345DF1EA064C200623446 /* IDCardDevice.dat */,
+				51D345E01EA064C200623446 /* IDCARDMS_ABROAD.xml */,
+				51D345E11EA064C200623446 /* IDCARDMS.xml */,
+				51D345E21EA064C200623446 /* IDCLASSIFIERANDROID.xml */,
+				51D345E31EA064C200623446 /* IDKLICENSE.dat */,
+				51D345E41EA064C200623446 /* IssueAndBirth.txt */,
+				51D345E51EA064C200623446 /* OEMtest.txt */,
+				51D345E61EA064C200623446 /* pntWTPENPDA.lib */,
+				51D345E71EA064C200623446 /* ProvName.txt */,
+				51D345E81EA064C200623446 /* SidIssueAuthority.txt */,
+				51D345E91EA064C200623446 /* Special.txt */,
+				51D345EA1EA064C200623446 /* thocr_Driver_License.lib */,
+				51D345EB1EA064C200623446 /* THOCR_LP.lib */,
+				51D345EC1EA064C200623446 /* THOCR_Num_Char.lib */,
+				51D345ED1EA064C200623446 /* THOCR_PDA.lib */,
+				51D345EE1EA064C200623446 /* THOCR_pspt.lib */,
+				51D345EF1EA064C200623446 /* thocr_sid.lib */,
+				51D345F01EA064C200623446 /* thocr_vl_all.lib */,
+				51D345F11EA064C200623446 /* thocr_vl_digit_capitals.lib */,
+				51D345F21EA064C200623446 /* thocr_vl_province.lib */,
+			);
+			name = Resource;
+			path = IDCardDemo/Resource;
+			sourceTree = "<group>";
+		};
+		51C1BDD11E80F03400AAFD18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51AB47161B1D9D1E0064E608 /* UIKit.framework */,
+				51AB47141B1D9D190064E608 /* Foundation.framework */,
+				51AB47121B1D9D100064E608 /* ImageIO.framework */,
+				51AB47101B1D9D080064E608 /* CoreGraphics.framework */,
+				51AB470E1B1D9CFF0064E608 /* AVFoundation.framework */,
+				51AB470C1B1D9CF50064E608 /* AudioToolbox.framework */,
+				51AB470A1B1D9CEB0064E608 /* CoreMedia.framework */,
+				51AB47081B1D9CE40064E608 /* CoreVideo.framework */,
+				51C1BDD41E80F04300AAFD18 /* libxml2.tbd */,
+				51C1BDD21E80F03400AAFD18 /* libiconv.2.4.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		51CB3DB51E8F85570026AF65 /* image */ = {
+			isa = PBXGroup;
+			children = (
+				51CB3DB01E8CAE270026AF65 /* take_pic_btn@2x.png */,
+				51CB3DB11E8CAE270026AF65 /* take_pic_btn@3x.png */,
+				51BD514A1B32A92000E805B2 /* back_camera_btn@2x.png */,
+				51BD514B1B32A92000E805B2 /* back_camera_btn@3x.png */,
+				51BD514C1B32A92000E805B2 /* flash_camera_btn@2x.png */,
+				51BD514D1B32A92000E805B2 /* flash_camera_btn@3x.png */,
+			);
+			name = image;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51AB46AA1B1D98DA0064E608 /* IDCardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51AB46CE1B1D98DA0064E608 /* Build configuration list for PBXNativeTarget "IDCardDemo" */;
+			buildPhases = (
+				51AB46A71B1D98DA0064E608 /* Sources */,
+				51AB46A81B1D98DA0064E608 /* Frameworks */,
+				51AB46A91B1D98DA0064E608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IDCardDemo;
+			productName = IDCardDemo;
+			productReference = 51AB46AB1B1D98DA0064E608 /* IDCardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51AB46C31B1D98DA0064E608 /* IDCardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51AB46D11B1D98DA0064E608 /* Build configuration list for PBXNativeTarget "IDCardDemoTests" */;
+			buildPhases = (
+				51AB46C01B1D98DA0064E608 /* Sources */,
+				51AB46C11B1D98DA0064E608 /* Frameworks */,
+				51AB46C21B1D98DA0064E608 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51AB46C61B1D98DA0064E608 /* PBXTargetDependency */,
+			);
+			name = IDCardDemoTests;
+			productName = IDCardDemoTests;
+			productReference = 51AB46C41B1D98DA0064E608 /* IDCardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51AB46A31B1D98DA0064E608 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = wintone;
+				TargetAttributes = {
+					51AB46AA1B1D98DA0064E608 = {
+						CreatedOnToolsVersion = 6.3;
+						DevelopmentTeam = 2Z8P7VRQP9;
+					};
+					51AB46C31B1D98DA0064E608 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 51AB46AA1B1D98DA0064E608;
+					};
+				};
+			};
+			buildConfigurationList = 51AB46A61B1D98DA0064E608 /* Build configuration list for PBXProject "IDCardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 51AB46A21B1D98DA0064E608;
+			productRefGroup = 51AB46AC1B1D98DA0064E608 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51AB46AA1B1D98DA0064E608 /* IDCardDemo */,
+				51AB46C31B1D98DA0064E608 /* IDCardDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51AB46A91B1D98DA0064E608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51CB3DB21E8CAE270026AF65 /* take_pic_btn@2x.png in Resources */,
+				51E099121EA0BF68005EF428 /* wtproject.lsc in Resources */,
+				51BD51501B32A92100E805B2 /* flash_camera_btn@2x.png in Resources */,
+				518FFFD61D487F7500DF2485 /* ViewController.xib in Resources */,
+				51D346001EA064C200623446 /* SidIssueAuthority.txt in Resources */,
+				51BD51511B32A92100E805B2 /* flash_camera_btn@3x.png in Resources */,
+				51D345F51EA064C200623446 /* AdminDivCode.txt in Resources */,
+				51D345F91EA064C200623446 /* IDCARDMS.xml in Resources */,
+				51D346041EA064C200623446 /* THOCR_Num_Char.lib in Resources */,
+				51D346081EA064C200623446 /* thocr_vl_all.lib in Resources */,
+				51D345FC1EA064C200623446 /* IssueAndBirth.txt in Resources */,
+				518FFFAC1D41F18F00DF2485 /* InfoPlist.strings in Resources */,
+				51D345FA1EA064C200623446 /* IDCLASSIFIERANDROID.xml in Resources */,
+				51D345FF1EA064C200623446 /* ProvName.txt in Resources */,
+				51D345F81EA064C200623446 /* IDCARDMS_ABROAD.xml in Resources */,
+				51D3460A1EA064C200623446 /* thocr_vl_province.lib in Resources */,
+				518FFFB31D41F30600DF2485 /* Localizable.strings in Resources */,
+				51D345F31EA064C200623446 /* Address.txt in Resources */,
+				51D345FB1EA064C200623446 /* IDKLICENSE.dat in Resources */,
+				51D346071EA064C200623446 /* thocr_sid.lib in Resources */,
+				51D346091EA064C200623446 /* thocr_vl_digit_capitals.lib in Resources */,
+				51D346011EA064C200623446 /* Special.txt in Resources */,
+				51D346051EA064C200623446 /* THOCR_PDA.lib in Resources */,
+				51D346061EA064C200623446 /* THOCR_pspt.lib in Resources */,
+				51BD514F1B32A92100E805B2 /* back_camera_btn@3x.png in Resources */,
+				51D345F41EA064C200623446 /* AdminDiv.txt in Resources */,
+				51D345FD1EA064C200623446 /* OEMtest.txt in Resources */,
+				51D346031EA064C200623446 /* THOCR_LP.lib in Resources */,
+				51D345FE1EA064C200623446 /* pntWTPENPDA.lib in Resources */,
+				51CB3DB31E8CAE270026AF65 /* take_pic_btn@3x.png in Resources */,
+				51D346021EA064C200623446 /* thocr_Driver_License.lib in Resources */,
+				51D345F61EA064C200623446 /* BrandModel.txt in Resources */,
+				51AB46BC1B1D98DA0064E608 /* Images.xcassets in Resources */,
+				51D345F71EA064C200623446 /* IDCardDevice.dat in Resources */,
+				51BD514E1B32A92100E805B2 /* back_camera_btn@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AB46C21B1D98DA0064E608 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51AB46A71B1D98DA0064E608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				511EC9D51E7BC245009F308A /* IDCardOverView.m in Sources */,
+				511EC9D41E7BBF9E009F308A /* IDCardCameraViewController.mm in Sources */,
+				51AB46B71B1D98DA0064E608 /* ViewController.m in Sources */,
+				51AB46B41B1D98DA0064E608 /* AppDelegate.m in Sources */,
+				51AB46B11B1D98DA0064E608 /* main.m in Sources */,
+				51BD51481B329A3D00E805B2 /* ResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51AB46C01B1D98DA0064E608 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51AB46C61B1D98DA0064E608 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51AB46AA1B1D98DA0064E608 /* IDCardDemo */;
+			targetProxy = 51AB46C51B1D98DA0064E608 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		518FFFAE1D41F18F00DF2485 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518FFFAD1D41F18F00DF2485 /* en */,
+				518FFFB01D41F28600DF2485 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		518FFFB51D41F30600DF2485 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518FFFB41D41F30600DF2485 /* en */,
+				518FFFB61D41F30800DF2485 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		518FFFD41D487F7500DF2485 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				518FFFD51D487F7500DF2485 /* en */,
+				518FFFD81D4882CC00DF2485 /* zh-Hans */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51AB46CC1B1D98DA0064E608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51AB46CD1B1D98DA0064E608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "compiler-default";
+				CLANG_CXX_LIBRARY = "compiler-default";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51AB46CF1B1D98DA0064E608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2Z8P7VRQP9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/IDCardDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IDCardDemo/Resource",
+					"$(PROJECT_DIR)/IDCardDemo/VINDistinguish/Resources",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinasafe.IDCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51AB46D01B1D98DA0064E608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2Z8P7VRQP9;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/IDCardDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/IDCardDemo/Resource",
+					"$(PROJECT_DIR)/IDCardDemo/VINDistinguish/Resources",
+				);
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinasafe.IDCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51AB46D21B1D98DA0064E608 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IDCardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDCardDemo.app/IDCardDemo";
+			};
+			name = Debug;
+		};
+		51AB46D31B1D98DA0064E608 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IDCardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IDCardDemo.app/IDCardDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51AB46A61B1D98DA0064E608 /* Build configuration list for PBXProject "IDCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AB46CC1B1D98DA0064E608 /* Debug */,
+				51AB46CD1B1D98DA0064E608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51AB46CE1B1D98DA0064E608 /* Build configuration list for PBXNativeTarget "IDCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AB46CF1B1D98DA0064E608 /* Debug */,
+				51AB46D01B1D98DA0064E608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51AB46D11B1D98DA0064E608 /* Build configuration list for PBXNativeTarget "IDCardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51AB46D21B1D98DA0064E608 /* Debug */,
+				51AB46D31B1D98DA0064E608 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51AB46A31B1D98DA0064E608 /* Project object */;
+}

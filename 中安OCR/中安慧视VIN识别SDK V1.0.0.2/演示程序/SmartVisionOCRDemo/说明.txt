@@ -1,0 +1,8 @@
+
+1、	smartvisitionocr.lsc文件为授权文件，每个授权文件对应一个开发码，开发码在核心初始化时作为参数传入。
+	demo中的授权文件绑定的是demo的 Bundle identifier、Bundle display name、CompanyName，修改Bundle identifier、Bundle display name、CompanyName则不能授权成功，核心会初始化失败，无法识别。
+	若要测试，可向销售人员申请测试授权文件，只绑定时间；正式购买后会提供正式授权文件，绑定客户项目的Bundle identifier、Bundle display name、CompanyName。根据客户需求具体授权事宜依情况而定，可与销售详谈。
+
+2、	Resources文件夹里为核心静态库和资源文件。
+3、	Camera_iPhone文件夹里为相机类和图片资源。
+4、	Others文件夹里为一些相关类，根据客户集成情况而定，需要或者不需要。

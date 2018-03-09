@@ -1,0 +1,529 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5162E8B01EBAC18D00E6253D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5162E8AF1EBAC18D00E6253D /* Main.storyboard */; };
+		5162E8B21EBAC5C900E6253D /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5162E8B11EBAC5C900E6253D /* CoreMotion.framework */; };
+		51A82D751BA7F8B00034D55A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A82D741BA7F8B00034D55A /* main.m */; };
+		51A82D781BA7F8B00034D55A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A82D771BA7F8B00034D55A /* AppDelegate.m */; };
+		51A82D7B1BA7F8B00034D55A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A82D7A1BA7F8B00034D55A /* ViewController.m */; };
+		51A82D801BA7F8B00034D55A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51A82D7F1BA7F8B00034D55A /* Images.xcassets */; };
+		51A82D831BA7F8B00034D55A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51A82D811BA7F8B00034D55A /* LaunchScreen.xib */; };
+		51A82D8F1BA7F8B00034D55A /* PlateIDDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A82D8E1BA7F8B00034D55A /* PlateIDDemoTests.m */; };
+		51A82D9D1BA7F9130034D55A /* PlateIDCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 51A82D9A1BA7F9130034D55A /* PlateIDCameraViewController.mm */; };
+		51A82D9E1BA7F9130034D55A /* PlateIDOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 51A82D9C1BA7F9130034D55A /* PlateIDOverView.m */; };
+		51A82DA61BA807D50034D55A /* wtproject.lsc in Resources */ = {isa = PBXBuildFile; fileRef = 51A82DA51BA807D50034D55A /* wtproject.lsc */; };
+		8654E6801EA9C4D0002677F2 /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8654E67F1EA9C4D0002677F2 /* libxml2.tbd */; };
+		8654E6831EA9C847002677F2 /* PlateIDResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8654E6821EA9C847002677F2 /* PlateIDResultViewController.m */; };
+		8654E6851EA9E7E5002677F2 /* libPlateIDOCR.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8654E6841EA9E7E5002677F2 /* libPlateIDOCR.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51A82D891BA7F8B00034D55A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 51A82D671BA7F8B00034D55A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 51A82D6E1BA7F8B00034D55A;
+			remoteInfo = PlateIDDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5162E8AF1EBAC18D00E6253D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		5162E8B11EBAC5C900E6253D /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		51A82D6F1BA7F8B00034D55A /* PlateIDDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlateIDDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A82D731BA7F8B00034D55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A82D741BA7F8B00034D55A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		51A82D761BA7F8B00034D55A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		51A82D771BA7F8B00034D55A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		51A82D791BA7F8B00034D55A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		51A82D7A1BA7F8B00034D55A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		51A82D7F1BA7F8B00034D55A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		51A82D821BA7F8B00034D55A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		51A82D881BA7F8B00034D55A /* PlateIDDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlateIDDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		51A82D8D1BA7F8B00034D55A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51A82D8E1BA7F8B00034D55A /* PlateIDDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlateIDDemoTests.m; sourceTree = "<group>"; };
+		51A82D991BA7F9130034D55A /* PlateIDCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlateIDCameraViewController.h; sourceTree = "<group>"; };
+		51A82D9A1BA7F9130034D55A /* PlateIDCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = PlateIDCameraViewController.mm; sourceTree = "<group>"; };
+		51A82D9B1BA7F9130034D55A /* PlateIDOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlateIDOverView.h; sourceTree = "<group>"; };
+		51A82D9C1BA7F9130034D55A /* PlateIDOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlateIDOverView.m; sourceTree = "<group>"; };
+		51A82DA11BA7FAD80034D55A /* PlateFormat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlateFormat.h; sourceTree = "<group>"; };
+		51A82DA21BA7FAD80034D55A /* PlateResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlateResult.h; sourceTree = "<group>"; };
+		51A82DA51BA807D50034D55A /* wtproject.lsc */ = {isa = PBXFileReference; lastKnownFileType = file; path = wtproject.lsc; sourceTree = "<group>"; };
+		8654E67F1EA9C4D0002677F2 /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		8654E6811EA9C847002677F2 /* PlateIDResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlateIDResultViewController.h; sourceTree = "<group>"; };
+		8654E6821EA9C847002677F2 /* PlateIDResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlateIDResultViewController.m; sourceTree = "<group>"; };
+		8654E6841EA9E7E5002677F2 /* libPlateIDOCR.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libPlateIDOCR.a; sourceTree = "<group>"; };
+		8654E6861EA9E924002677F2 /* PlateIDOCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlateIDOCR.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		51A82D6C1BA7F8B00034D55A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5162E8B21EBAC5C900E6253D /* CoreMotion.framework in Frameworks */,
+				8654E6801EA9C4D0002677F2 /* libxml2.tbd in Frameworks */,
+				8654E6851EA9E7E5002677F2 /* libPlateIDOCR.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A82D851BA7F8B00034D55A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		51A82D661BA7F8B00034D55A = {
+			isa = PBXGroup;
+			children = (
+				51A82DA51BA807D50034D55A /* wtproject.lsc */,
+				51A82D9F1BA7FAD80034D55A /* Resource */,
+				51A82D981BA7F9130034D55A /* camara */,
+				51A82D711BA7F8B00034D55A /* PlateIDDemo */,
+				51A82D8B1BA7F8B00034D55A /* PlateIDDemoTests */,
+				51A82D701BA7F8B00034D55A /* Products */,
+				8654E67E1EA9C4D0002677F2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		51A82D701BA7F8B00034D55A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				51A82D6F1BA7F8B00034D55A /* PlateIDDemo.app */,
+				51A82D881BA7F8B00034D55A /* PlateIDDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		51A82D711BA7F8B00034D55A /* PlateIDDemo */ = {
+			isa = PBXGroup;
+			children = (
+				51A82D761BA7F8B00034D55A /* AppDelegate.h */,
+				51A82D771BA7F8B00034D55A /* AppDelegate.m */,
+				51A82D791BA7F8B00034D55A /* ViewController.h */,
+				51A82D7A1BA7F8B00034D55A /* ViewController.m */,
+				8654E6811EA9C847002677F2 /* PlateIDResultViewController.h */,
+				8654E6821EA9C847002677F2 /* PlateIDResultViewController.m */,
+				5162E8AF1EBAC18D00E6253D /* Main.storyboard */,
+				51A82D7F1BA7F8B00034D55A /* Images.xcassets */,
+				51A82D811BA7F8B00034D55A /* LaunchScreen.xib */,
+				51A82D721BA7F8B00034D55A /* Supporting Files */,
+			);
+			path = PlateIDDemo;
+			sourceTree = "<group>";
+		};
+		51A82D721BA7F8B00034D55A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51A82D731BA7F8B00034D55A /* Info.plist */,
+				51A82D741BA7F8B00034D55A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51A82D8B1BA7F8B00034D55A /* PlateIDDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				51A82D8E1BA7F8B00034D55A /* PlateIDDemoTests.m */,
+				51A82D8C1BA7F8B00034D55A /* Supporting Files */,
+			);
+			path = PlateIDDemoTests;
+			sourceTree = "<group>";
+		};
+		51A82D8C1BA7F8B00034D55A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				51A82D8D1BA7F8B00034D55A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		51A82D981BA7F9130034D55A /* camara */ = {
+			isa = PBXGroup;
+			children = (
+				51A82D991BA7F9130034D55A /* PlateIDCameraViewController.h */,
+				51A82D9A1BA7F9130034D55A /* PlateIDCameraViewController.mm */,
+				51A82D9B1BA7F9130034D55A /* PlateIDOverView.h */,
+				51A82D9C1BA7F9130034D55A /* PlateIDOverView.m */,
+			);
+			path = camara;
+			sourceTree = "<group>";
+		};
+		51A82D9F1BA7FAD80034D55A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8654E6861EA9E924002677F2 /* PlateIDOCR.h */,
+				8654E6841EA9E7E5002677F2 /* libPlateIDOCR.a */,
+				51A82DA11BA7FAD80034D55A /* PlateFormat.h */,
+				51A82DA21BA7FAD80034D55A /* PlateResult.h */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		8654E67E1EA9C4D0002677F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5162E8B11EBAC5C900E6253D /* CoreMotion.framework */,
+				8654E67F1EA9C4D0002677F2 /* libxml2.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		51A82D6E1BA7F8B00034D55A /* PlateIDDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A82D921BA7F8B00034D55A /* Build configuration list for PBXNativeTarget "PlateIDDemo" */;
+			buildPhases = (
+				51A82D6B1BA7F8B00034D55A /* Sources */,
+				51A82D6C1BA7F8B00034D55A /* Frameworks */,
+				51A82D6D1BA7F8B00034D55A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlateIDDemo;
+			productName = PlateIDDemo;
+			productReference = 51A82D6F1BA7F8B00034D55A /* PlateIDDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		51A82D871BA7F8B00034D55A /* PlateIDDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51A82D951BA7F8B00034D55A /* Build configuration list for PBXNativeTarget "PlateIDDemoTests" */;
+			buildPhases = (
+				51A82D841BA7F8B00034D55A /* Sources */,
+				51A82D851BA7F8B00034D55A /* Frameworks */,
+				51A82D861BA7F8B00034D55A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				51A82D8A1BA7F8B00034D55A /* PBXTargetDependency */,
+			);
+			name = PlateIDDemoTests;
+			productName = PlateIDDemoTests;
+			productReference = 51A82D881BA7F8B00034D55A /* PlateIDDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		51A82D671BA7F8B00034D55A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = wintone;
+				TargetAttributes = {
+					51A82D6E1BA7F8B00034D55A = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2Z8P7VRQP9;
+					};
+					51A82D871BA7F8B00034D55A = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 51A82D6E1BA7F8B00034D55A;
+					};
+				};
+			};
+			buildConfigurationList = 51A82D6A1BA7F8B00034D55A /* Build configuration list for PBXProject "PlateIDDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 51A82D661BA7F8B00034D55A;
+			productRefGroup = 51A82D701BA7F8B00034D55A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				51A82D6E1BA7F8B00034D55A /* PlateIDDemo */,
+				51A82D871BA7F8B00034D55A /* PlateIDDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		51A82D6D1BA7F8B00034D55A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A82DA61BA807D50034D55A /* wtproject.lsc in Resources */,
+				51A82D831BA7F8B00034D55A /* LaunchScreen.xib in Resources */,
+				51A82D801BA7F8B00034D55A /* Images.xcassets in Resources */,
+				5162E8B01EBAC18D00E6253D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A82D861BA7F8B00034D55A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		51A82D6B1BA7F8B00034D55A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8654E6831EA9C847002677F2 /* PlateIDResultViewController.m in Sources */,
+				51A82D9D1BA7F9130034D55A /* PlateIDCameraViewController.mm in Sources */,
+				51A82D9E1BA7F9130034D55A /* PlateIDOverView.m in Sources */,
+				51A82D7B1BA7F8B00034D55A /* ViewController.m in Sources */,
+				51A82D781BA7F8B00034D55A /* AppDelegate.m in Sources */,
+				51A82D751BA7F8B00034D55A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		51A82D841BA7F8B00034D55A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51A82D8F1BA7F8B00034D55A /* PlateIDDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		51A82D8A1BA7F8B00034D55A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 51A82D6E1BA7F8B00034D55A /* PlateIDDemo */;
+			targetProxy = 51A82D891BA7F8B00034D55A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		51A82D811BA7F8B00034D55A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				51A82D821BA7F8B00034D55A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		51A82D901BA7F8B00034D55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		51A82D911BA7F8B00034D55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		51A82D931BA7F8B00034D55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2Z8P7VRQP9;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/lxml2,
+				);
+				INFOPLIST_FILE = PlateIDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resource",
+				);
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinasafe.PlateIDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		51A82D941BA7F8B00034D55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 2Z8P7VRQP9;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					/usr/include/lxml2,
+				);
+				INFOPLIST_FILE = PlateIDDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Resource",
+				);
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-lxml2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinasafe.PlateIDDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		51A82D961BA7F8B00034D55A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlateIDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlateIDDemo.app/PlateIDDemo";
+			};
+			name = Debug;
+		};
+		51A82D971BA7F8B00034D55A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PlateIDDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlateIDDemo.app/PlateIDDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		51A82D6A1BA7F8B00034D55A /* Build configuration list for PBXProject "PlateIDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A82D901BA7F8B00034D55A /* Debug */,
+				51A82D911BA7F8B00034D55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A82D921BA7F8B00034D55A /* Build configuration list for PBXNativeTarget "PlateIDDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A82D931BA7F8B00034D55A /* Debug */,
+				51A82D941BA7F8B00034D55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51A82D951BA7F8B00034D55A /* Build configuration list for PBXNativeTarget "PlateIDDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				51A82D961BA7F8B00034D55A /* Debug */,
+				51A82D971BA7F8B00034D55A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 51A82D671BA7F8B00034D55A /* Project object */;
+}

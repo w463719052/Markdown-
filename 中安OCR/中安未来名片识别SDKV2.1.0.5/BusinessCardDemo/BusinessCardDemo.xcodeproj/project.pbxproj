@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		512526F91C55B676002C070F /* BusOverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 512526EB1C55B676002C070F /* BusOverView.m */; };
+		512526FA1C55B676002C070F /* BusCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 512526ED1C55B676002C070F /* BusCameraViewController.mm */; };
+		512526FC1C55B75E002C070F /* BusinessCard.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 512526FB1C55B75E002C070F /* BusinessCard.bundle */; };
+		512527021C55BA7E002C070F /* Address.txt in Resources */ = {isa = PBXBuildFile; fileRef = 512527001C55BA7E002C070F /* Address.txt */; };
+		512527071C570AA4002C070F /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512527051C570AA4002C070F /* ResultViewController.m */; };
+		5125270A1C5856A0002C070F /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 512527091C5856A0002C070F /* libxml2.tbd */; };
+		512C0F261BD08B0300A10693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 512C0F251BD08B0300A10693 /* main.m */; };
+		512C0F291BD08B0300A10693 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 512C0F281BD08B0300A10693 /* AppDelegate.m */; };
+		512C0F2C1BD08B0400A10693 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 512C0F2B1BD08B0400A10693 /* ViewController.m */; };
+		512C0F2F1BD08B0400A10693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512C0F2D1BD08B0400A10693 /* Main.storyboard */; };
+		512C0F311BD08B0400A10693 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512C0F301BD08B0400A10693 /* Images.xcassets */; };
+		512C0F341BD08B0400A10693 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512C0F321BD08B0400A10693 /* LaunchScreen.xib */; };
+		512C0F401BD08B0400A10693 /* BusinessCardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 512C0F3F1BD08B0400A10693 /* BusinessCardDemoTests.m */; };
+		514DDBB81DD98AFC006FA8B8 /* BCCompany.lib in Resources */ = {isa = PBXBuildFile; fileRef = 514DDBB51DD98AFC006FA8B8 /* BCCompany.lib */; };
+		514DDBB91DD98AFC006FA8B8 /* pntWTPENPDABC.lib in Resources */ = {isa = PBXBuildFile; fileRef = 514DDBB61DD98AFC006FA8B8 /* pntWTPENPDABC.lib */; };
+		514DDBBA1DD98AFC006FA8B8 /* wintonexingkai.lib in Resources */ = {isa = PBXBuildFile; fileRef = 514DDBB71DD98AFC006FA8B8 /* wintonexingkai.lib */; };
+		515B96A41CB3A0A2007B440B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 515B96A31CB3A0A2007B440B /* Default-568h@2x.png */; };
+		516C4BC61CAB807F0087879F /* libBusinessCardPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 516C4BC51CAB807F0087879F /* libBusinessCardPro.a */; };
+		516C4BC81CABBCB90087879F /* wtproject.lsc in Resources */ = {isa = PBXBuildFile; fileRef = 516C4BC71CABBCB90087879F /* wtproject.lsc */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		512C0F3A1BD08B0400A10693 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 512C0F181BD08B0300A10693 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 512C0F1F1BD08B0300A10693;
+			remoteInfo = BusinessCardDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		512526EA1C55B676002C070F /* BusOverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusOverView.h; sourceTree = "<group>"; };
+		512526EB1C55B676002C070F /* BusOverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusOverView.m; sourceTree = "<group>"; };
+		512526EC1C55B676002C070F /* BusCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusCameraViewController.h; sourceTree = "<group>"; };
+		512526ED1C55B676002C070F /* BusCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BusCameraViewController.mm; sourceTree = "<group>"; };
+		512526FB1C55B75E002C070F /* BusinessCard.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = BusinessCard.bundle; path = ../BusinessCard.bundle; sourceTree = "<group>"; };
+		512527001C55BA7E002C070F /* Address.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Address.txt; sourceTree = "<group>"; };
+		512527041C570AA4002C070F /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		512527051C570AA4002C070F /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
+		512527091C5856A0002C070F /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		512C0F201BD08B0300A10693 /* BusinessCardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BusinessCardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		512C0F241BD08B0300A10693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512C0F251BD08B0300A10693 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		512C0F271BD08B0300A10693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		512C0F281BD08B0300A10693 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		512C0F2A1BD08B0300A10693 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		512C0F2B1BD08B0400A10693 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		512C0F2E1BD08B0400A10693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		512C0F301BD08B0400A10693 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		512C0F331BD08B0400A10693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		512C0F391BD08B0400A10693 /* BusinessCardDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BusinessCardDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		512C0F3E1BD08B0400A10693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512C0F3F1BD08B0400A10693 /* BusinessCardDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BusinessCardDemoTests.m; sourceTree = "<group>"; };
+		514DDBB51DD98AFC006FA8B8 /* BCCompany.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = BCCompany.lib; sourceTree = "<group>"; };
+		514DDBB61DD98AFC006FA8B8 /* pntWTPENPDABC.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = pntWTPENPDABC.lib; sourceTree = "<group>"; };
+		514DDBB71DD98AFC006FA8B8 /* wintonexingkai.lib */ = {isa = PBXFileReference; lastKnownFileType = file; path = wintonexingkai.lib; sourceTree = "<group>"; };
+		515B96A31CB3A0A2007B440B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		516C4BC41CAB80710087879F /* BusinessCardPro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessCardPro.h; sourceTree = "<group>"; };
+		516C4BC51CAB807F0087879F /* libBusinessCardPro.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libBusinessCardPro.a; sourceTree = "<group>"; };
+		516C4BC71CABBCB90087879F /* wtproject.lsc */ = {isa = PBXFileReference; lastKnownFileType = file; path = wtproject.lsc; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		512C0F1D1BD08B0300A10693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5125270A1C5856A0002C070F /* libxml2.tbd in Frameworks */,
+				516C4BC61CAB807F0087879F /* libBusinessCardPro.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512C0F361BD08B0400A10693 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		512526E91C55B676002C070F /* camera */ = {
+			isa = PBXGroup;
+			children = (
+				512526FB1C55B75E002C070F /* BusinessCard.bundle */,
+				512526EA1C55B676002C070F /* BusOverView.h */,
+				512526EB1C55B676002C070F /* BusOverView.m */,
+				512526EC1C55B676002C070F /* BusCameraViewController.h */,
+				512526ED1C55B676002C070F /* BusCameraViewController.mm */,
+			);
+			path = camera;
+			sourceTree = "<group>";
+		};
+		512526EE1C55B676002C070F /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				512527001C55BA7E002C070F /* Address.txt */,
+				516C4BC41CAB80710087879F /* BusinessCardPro.h */,
+				514DDBB51DD98AFC006FA8B8 /* BCCompany.lib */,
+				514DDBB61DD98AFC006FA8B8 /* pntWTPENPDABC.lib */,
+				514DDBB71DD98AFC006FA8B8 /* wintonexingkai.lib */,
+				516C4BC51CAB807F0087879F /* libBusinessCardPro.a */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+		512C0F171BD08B0300A10693 = {
+			isa = PBXGroup;
+			children = (
+				516C4BC71CABBCB90087879F /* wtproject.lsc */,
+				512527091C5856A0002C070F /* libxml2.tbd */,
+				512526E91C55B676002C070F /* camera */,
+				512526EE1C55B676002C070F /* resource */,
+				512C0F221BD08B0300A10693 /* BusinessCardDemo */,
+				512C0F3C1BD08B0400A10693 /* BusinessCardDemoTests */,
+				512C0F211BD08B0300A10693 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		512C0F211BD08B0300A10693 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512C0F201BD08B0300A10693 /* BusinessCardDemo.app */,
+				512C0F391BD08B0400A10693 /* BusinessCardDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		512C0F221BD08B0300A10693 /* BusinessCardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				512C0F271BD08B0300A10693 /* AppDelegate.h */,
+				512C0F281BD08B0300A10693 /* AppDelegate.m */,
+				512C0F2A1BD08B0300A10693 /* ViewController.h */,
+				512C0F2B1BD08B0400A10693 /* ViewController.m */,
+				512527041C570AA4002C070F /* ResultViewController.h */,
+				512527051C570AA4002C070F /* ResultViewController.m */,
+				512C0F2D1BD08B0400A10693 /* Main.storyboard */,
+				512C0F301BD08B0400A10693 /* Images.xcassets */,
+				512C0F321BD08B0400A10693 /* LaunchScreen.xib */,
+				512C0F231BD08B0300A10693 /* Supporting Files */,
+			);
+			path = BusinessCardDemo;
+			sourceTree = "<group>";
+		};
+		512C0F231BD08B0300A10693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				515B96A31CB3A0A2007B440B /* Default-568h@2x.png */,
+				512C0F241BD08B0300A10693 /* Info.plist */,
+				512C0F251BD08B0300A10693 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		512C0F3C1BD08B0400A10693 /* BusinessCardDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				512C0F3F1BD08B0400A10693 /* BusinessCardDemoTests.m */,
+				512C0F3D1BD08B0400A10693 /* Supporting Files */,
+			);
+			path = BusinessCardDemoTests;
+			sourceTree = "<group>";
+		};
+		512C0F3D1BD08B0400A10693 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				512C0F3E1BD08B0400A10693 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512C0F1F1BD08B0300A10693 /* BusinessCardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512C0F431BD08B0400A10693 /* Build configuration list for PBXNativeTarget "BusinessCardDemo" */;
+			buildPhases = (
+				512C0F1C1BD08B0300A10693 /* Sources */,
+				512C0F1D1BD08B0300A10693 /* Frameworks */,
+				512C0F1E1BD08B0300A10693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BusinessCardDemo;
+			productName = BusinessCardDemo;
+			productReference = 512C0F201BD08B0300A10693 /* BusinessCardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		512C0F381BD08B0400A10693 /* BusinessCardDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512C0F461BD08B0400A10693 /* Build configuration list for PBXNativeTarget "BusinessCardDemoTests" */;
+			buildPhases = (
+				512C0F351BD08B0400A10693 /* Sources */,
+				512C0F361BD08B0400A10693 /* Frameworks */,
+				512C0F371BD08B0400A10693 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				512C0F3B1BD08B0400A10693 /* PBXTargetDependency */,
+			);
+			name = BusinessCardDemoTests;
+			productName = BusinessCardDemoTests;
+			productReference = 512C0F391BD08B0400A10693 /* BusinessCardDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		512C0F181BD08B0300A10693 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = wintone;
+				TargetAttributes = {
+					512C0F1F1BD08B0300A10693 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 2Z8P7VRQP9;
+					};
+					512C0F381BD08B0400A10693 = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = ZE3B4CED3K;
+						TestTargetID = 512C0F1F1BD08B0300A10693;
+					};
+				};
+			};
+			buildConfigurationList = 512C0F1B1BD08B0300A10693 /* Build configuration list for PBXProject "BusinessCardDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 512C0F171BD08B0300A10693;
+			productRefGroup = 512C0F211BD08B0300A10693 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512C0F1F1BD08B0300A10693 /* BusinessCardDemo */,
+				512C0F381BD08B0400A10693 /* BusinessCardDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512C0F1E1BD08B0300A10693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				514DDBB91DD98AFC006FA8B8 /* pntWTPENPDABC.lib in Resources */,
+				512C0F2F1BD08B0400A10693 /* Main.storyboard in Resources */,
+				512526FC1C55B75E002C070F /* BusinessCard.bundle in Resources */,
+				512C0F341BD08B0400A10693 /* LaunchScreen.xib in Resources */,
+				512C0F311BD08B0400A10693 /* Images.xcassets in Resources */,
+				512527021C55BA7E002C070F /* Address.txt in Resources */,
+				515B96A41CB3A0A2007B440B /* Default-568h@2x.png in Resources */,
+				514DDBB81DD98AFC006FA8B8 /* BCCompany.lib in Resources */,
+				514DDBBA1DD98AFC006FA8B8 /* wintonexingkai.lib in Resources */,
+				516C4BC81CABBCB90087879F /* wtproject.lsc in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512C0F371BD08B0400A10693 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		512C0F1C1BD08B0300A10693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512526F91C55B676002C070F /* BusOverView.m in Sources */,
+				512C0F2C1BD08B0400A10693 /* ViewController.m in Sources */,
+				512526FA1C55B676002C070F /* BusCameraViewController.mm in Sources */,
+				512C0F291BD08B0300A10693 /* AppDelegate.m in Sources */,
+				512C0F261BD08B0300A10693 /* main.m in Sources */,
+				512527071C570AA4002C070F /* ResultViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		512C0F351BD08B0400A10693 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512C0F401BD08B0400A10693 /* BusinessCardDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		512C0F3B1BD08B0400A10693 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 512C0F1F1BD08B0300A10693 /* BusinessCardDemo */;
+			targetProxy = 512C0F3A1BD08B0400A10693 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		512C0F2D1BD08B0400A10693 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512C0F2E1BD08B0400A10693 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		512C0F321BD08B0400A10693 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512C0F331BD08B0400A10693 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		512C0F411BD08B0400A10693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		512C0F421BD08B0400A10693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512C0F441BD08B0400A10693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Z8P7VRQP9;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = BusinessCardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/resource",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinasafe.BusinessCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		512C0F451BD08B0400A10693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2Z8P7VRQP9;
+				ENABLE_BITCODE = NO;
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = BusinessCardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/resource",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.chinasafe.BusinessCardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		512C0F471BD08B0400A10693 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZE3B4CED3K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BusinessCardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessCardDemo.app/BusinessCardDemo";
+			};
+			name = Debug;
+		};
+		512C0F481BD08B0400A10693 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZE3B4CED3K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BusinessCardDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BusinessCardDemo.app/BusinessCardDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		512C0F1B1BD08B0300A10693 /* Build configuration list for PBXProject "BusinessCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512C0F411BD08B0400A10693 /* Debug */,
+				512C0F421BD08B0400A10693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512C0F431BD08B0400A10693 /* Build configuration list for PBXNativeTarget "BusinessCardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512C0F441BD08B0400A10693 /* Debug */,
+				512C0F451BD08B0400A10693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512C0F461BD08B0400A10693 /* Build configuration list for PBXNativeTarget "BusinessCardDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512C0F471BD08B0400A10693 /* Debug */,
+				512C0F481BD08B0400A10693 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 512C0F181BD08B0300A10693 /* Project object */;
+}

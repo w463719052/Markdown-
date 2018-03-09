@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "a124d309-b0db-ea43-a404-356d636d3a59++5038",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "a124d309-b0db-ea43-a404-356d636d3a59++5038" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "a124d309-b0db-ea43-a404-356d636d3a59++5038" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "88B9CA1F-6F4A-44E5-9F2A-670A178CE00E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "a124d309-b0db-ea43-a404-356d636d3a59++5038" : "SmartVisionOCRDemo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "SmartVisionOCRDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "SmartVisionOCRDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.0.63:9880\/iOSSmartVision",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "a124d309-b0db-ea43-a404-356d636d3a59++5038"
+    }
+  ]
+}

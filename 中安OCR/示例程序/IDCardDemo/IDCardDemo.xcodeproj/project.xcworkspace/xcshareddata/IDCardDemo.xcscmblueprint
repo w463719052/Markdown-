@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8b6b18b6-f6ab-5641-84b7-0bc906e04cec++6675",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "8b6b18b6-f6ab-5641-84b7-0bc906e04cec++6675" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "8b6b18b6-f6ab-5641-84b7-0bc906e04cec++6675" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F192BC86-8E36-4A17-8D51-BB5542A68E9B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "8b6b18b6-f6ab-5641-84b7-0bc906e04cec++6675" : "%E6%96%87%E9%80%9A%E7%A7%91%E6%8A%80\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IDCardDemo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "快证通专业版演示程序\/trunk\/IDCardDemo\/IDCardDemo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "svn:\/\/192.168.0.150\/share\/svnnas\/repository\/IOSIDCard",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8b6b18b6-f6ab-5641-84b7-0bc906e04cec++6675"
+    }
+  ]
+}
